@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "invisibleplayerglow",
+  "version": "${version}",
+  "name": "Invisible Player Glow",
+  "description": "Shows subtle glow-style particles around invisible players that are in view and not blocked by walls.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "example.invisibleplayerglow.InvisiblePlayerGlowClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
